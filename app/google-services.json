@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "901761518718",
+    "project_id": "singlelifeapp",
+    "storage_bucket": "singlelifeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901761518718:android:c96824423f0787cd0b1c2f",
+        "android_client_info": {
+          "package_name": "com.example.singlelife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901761518718-n3i3c9cpt61io6mm14ptg9cs1h0j8ihj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOCEQ0p9wgDdpebqNhAf1uj811vQE0_Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901761518718-n3i3c9cpt61io6mm14ptg9cs1h0j8ihj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

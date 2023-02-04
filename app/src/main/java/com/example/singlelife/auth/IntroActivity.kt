@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
+import com.example.singlelife.MainActivity
 import com.example.singlelife.R
 import com.example.singlelife.databinding.ActivityIntroBinding
 import com.example.singlelife.databinding.ActivityLoginBinding
@@ -47,6 +48,10 @@ class IntroActivity : AppCompatActivity() {
                         Toast.makeText(baseContext, "익명으로 로그인 하셨습니다.",
                             Toast.LENGTH_SHORT).show()
                         val user = auth.currentUser
+                        var intent = Intent(this, MainActivity::class.java)
+                        intent.flags= Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                        startActivity(intent)
+                        finish()
 
                     } else {
                         // If sign in fails, display a message to the user.
